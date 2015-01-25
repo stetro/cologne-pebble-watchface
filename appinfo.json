@@ -1,0 +1,26 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "stetro.freaky@googlemail.com",
+    "longName": "Cologne",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/pebble_back.png",
+                "menuIcon": true,
+                "name": "COLOGNE_DOM_BACKGROUND",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "Cologne",
+    "uuid": "722d6c2c-52ea-408b-99ef-ab00ea79abb9",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
