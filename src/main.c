@@ -47,23 +47,23 @@ static void main_window_load(Window *window) {
   bitmap_layer_set_bitmap(s_background_layer, s_background_bitmap);
   layer_add_child(window_get_root_layer(window), bitmap_layer_get_layer(s_background_layer));
   
-  // Create time TimeLayer
-  s_time_layer = text_layer_create(GRect(35, 50, 144, 50));
+  // Create TimeLayer
+  s_time_layer = text_layer_create(GRect(0, 50, 130, 50));
   text_layer_set_background_color(s_time_layer, GColorClear);
   text_layer_set_text_color(s_time_layer, GColorBlack);
   text_layer_set_text(s_time_layer, "00:00");
   
-  // Create time DateLayer
-  s_date_layer = text_layer_create(GRect(40, 75, 144, 50));
+  // Create DateLayer
+  s_date_layer = text_layer_create(GRect(0, 75, 130, 50));
   text_layer_set_background_color(s_date_layer, GColorClear);
   text_layer_set_text_color(s_date_layer, GColorBlack);
   text_layer_set_text(s_date_layer, "Sun 00");
  
   // Improve the layout to be more like a watchface
   text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
-  text_layer_set_text_alignment(s_time_layer, GTextAlignmentCenter);
+  text_layer_set_text_alignment(s_time_layer, GTextAlignmentRight);
   text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
-  text_layer_set_text_alignment(s_date_layer, GTextAlignmentCenter);
+  text_layer_set_text_alignment(s_date_layer, GTextAlignmentRight);
   
   // Add it as a child layer to the Window's root layer
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_time_layer));
