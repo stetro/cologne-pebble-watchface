@@ -1,5 +1,6 @@
 # cologne-pebble-watchface
 
-![Background Image](https://raw.githubusercontent.com/stetro/cologne-pebble-watchface/master/resources/images/pebble_back.png) 
+> A simple pebble watchface with the cologne cathedral as background.
 
-> This is a simple pebble watchface with the cologne cathedral as background. 
+![Background Image](screenshot.png)
+[Cologne Skyline Watchface](http://apps.getpebble.com/en_US/application/55b0d84bd53410677c000039)
